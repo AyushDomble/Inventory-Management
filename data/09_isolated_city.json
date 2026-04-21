@@ -1,0 +1,67 @@
+{
+  "cities": [
+    {
+      "name": "MainCity1",
+      "demand": 80
+    },
+    {
+      "name": "MainCity2",
+      "demand": 70
+    },
+    {
+      "name": "MainCity3",
+      "demand": 60
+    },
+    {
+      "name": "RemoteIsland",
+      "demand": 40
+    }
+  ],
+  "warehouses": [
+    {
+      "name": "WH1",
+      "capacity": 150
+    },
+    {
+      "name": "WH2",
+      "capacity": 150
+    }
+  ],
+  "roads": [
+    {
+      "from": "MainCity1",
+      "to": "WH1",
+      "distance": 3
+    },
+    {
+      "from": "MainCity2",
+      "to": "WH1",
+      "distance": 5
+    },
+    {
+      "from": "MainCity3",
+      "to": "WH2",
+      "distance": 4
+    },
+    {
+      "from": "WH1",
+      "to": "WH2",
+      "distance": 6
+    },
+    {
+      "from": "MainCity1",
+      "to": "FerryPort",
+      "distance": 8
+    },
+    {
+      "from": "FerryPort",
+      "to": "RemoteIsland",
+      "distance": 15
+    },
+    {
+      "from": "RemoteIsland",
+      "to": "WH2",
+      "distance": 20
+    }
+  ]
+}

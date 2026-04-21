@@ -1,0 +1,207 @@
+{
+  "cities": [
+    {
+      "name": "P1",
+      "demand": 60
+    },
+    {
+      "name": "P2",
+      "demand": 55
+    },
+    {
+      "name": "P3",
+      "demand": 50
+    },
+    {
+      "name": "P4",
+      "demand": 65
+    },
+    {
+      "name": "Q1",
+      "demand": 60
+    },
+    {
+      "name": "Q2",
+      "demand": 55
+    },
+    {
+      "name": "Q3",
+      "demand": 50
+    },
+    {
+      "name": "Q4",
+      "demand": 65
+    },
+    {
+      "name": "R1",
+      "demand": 60
+    },
+    {
+      "name": "R2",
+      "demand": 55
+    },
+    {
+      "name": "R3",
+      "demand": 50
+    },
+    {
+      "name": "R4",
+      "demand": 65
+    }
+  ],
+  "warehouses": [
+    {
+      "name": "WA",
+      "capacity": 195
+    },
+    {
+      "name": "WB",
+      "capacity": 200
+    },
+    {
+      "name": "WC",
+      "capacity": 195
+    },
+    {
+      "name": "WD",
+      "capacity": 200
+    }
+  ],
+  "roads": [
+    {
+      "from": "P1",
+      "to": "JuncA",
+      "distance": 2
+    },
+    {
+      "from": "P2",
+      "to": "JuncA",
+      "distance": 4
+    },
+    {
+      "from": "P3",
+      "to": "JuncA",
+      "distance": 3
+    },
+    {
+      "from": "P4",
+      "to": "JuncA",
+      "distance": 5
+    },
+    {
+      "from": "JuncA",
+      "to": "WA",
+      "distance": 3
+    },
+    {
+      "from": "JuncA",
+      "to": "WD",
+      "distance": 7
+    },
+    {
+      "from": "JuncA",
+      "to": "WB",
+      "distance": 11
+    },
+    {
+      "from": "JuncA",
+      "to": "WC",
+      "distance": 13
+    },
+    {
+      "from": "Q1",
+      "to": "JuncB",
+      "distance": 2
+    },
+    {
+      "from": "Q2",
+      "to": "JuncB",
+      "distance": 4
+    },
+    {
+      "from": "Q3",
+      "to": "JuncB",
+      "distance": 3
+    },
+    {
+      "from": "Q4",
+      "to": "JuncB",
+      "distance": 5
+    },
+    {
+      "from": "JuncB",
+      "to": "WB",
+      "distance": 3
+    },
+    {
+      "from": "JuncB",
+      "to": "WA",
+      "distance": 7
+    },
+    {
+      "from": "JuncB",
+      "to": "WC",
+      "distance": 11
+    },
+    {
+      "from": "JuncB",
+      "to": "WD",
+      "distance": 13
+    },
+    {
+      "from": "R1",
+      "to": "JuncC",
+      "distance": 2
+    },
+    {
+      "from": "R2",
+      "to": "JuncC",
+      "distance": 4
+    },
+    {
+      "from": "R3",
+      "to": "JuncC",
+      "distance": 3
+    },
+    {
+      "from": "R4",
+      "to": "JuncC",
+      "distance": 5
+    },
+    {
+      "from": "JuncC",
+      "to": "WC",
+      "distance": 3
+    },
+    {
+      "from": "JuncC",
+      "to": "WB",
+      "distance": 6
+    },
+    {
+      "from": "JuncC",
+      "to": "WD",
+      "distance": 10
+    },
+    {
+      "from": "JuncC",
+      "to": "WA",
+      "distance": 14
+    },
+    {
+      "from": "JuncA",
+      "to": "JuncB",
+      "distance": 9
+    },
+    {
+      "from": "JuncB",
+      "to": "JuncC",
+      "distance": 9
+    },
+    {
+      "from": "JuncC",
+      "to": "JuncA",
+      "distance": 9
+    }
+  ]
+}

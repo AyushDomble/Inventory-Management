@@ -1,0 +1,238 @@
+{
+  "cities": [
+    {
+      "name": "Mumbai",
+      "demand": 90
+    },
+    {
+      "name": "Delhi",
+      "demand": 110
+    },
+    {
+      "name": "Kolkata",
+      "demand": 85
+    },
+    {
+      "name": "Chennai",
+      "demand": 75
+    },
+    {
+      "name": "Bangalore",
+      "demand": 95
+    },
+    {
+      "name": "Hyderabad",
+      "demand": 80
+    },
+    {
+      "name": "Pune",
+      "demand": 65
+    },
+    {
+      "name": "Ahmedabad",
+      "demand": 70
+    },
+    {
+      "name": "Jaipur",
+      "demand": 60
+    },
+    {
+      "name": "Lucknow",
+      "demand": 55
+    },
+    {
+      "name": "Surat",
+      "demand": 50
+    },
+    {
+      "name": "Kanpur",
+      "demand": 45
+    },
+    {
+      "name": "Nagpur",
+      "demand": 60
+    },
+    {
+      "name": "Indore",
+      "demand": 55
+    },
+    {
+      "name": "Patna",
+      "demand": 50
+    }
+  ],
+  "warehouses": [
+    {
+      "name": "W_West",
+      "capacity": 300
+    },
+    {
+      "name": "W_North",
+      "capacity": 280
+    },
+    {
+      "name": "W_East",
+      "capacity": 260
+    },
+    {
+      "name": "W_South",
+      "capacity": 300
+    },
+    {
+      "name": "W_Center",
+      "capacity": 250
+    }
+  ],
+  "roads": [
+    {
+      "from": "Mumbai",
+      "to": "HubWest",
+      "distance": 3
+    },
+    {
+      "from": "Pune",
+      "to": "HubWest",
+      "distance": 2
+    },
+    {
+      "from": "Surat",
+      "to": "HubWest",
+      "distance": 4
+    },
+    {
+      "from": "Ahmedabad",
+      "to": "HubWest",
+      "distance": 5
+    },
+    {
+      "from": "Delhi",
+      "to": "HubNorth",
+      "distance": 3
+    },
+    {
+      "from": "Jaipur",
+      "to": "HubNorth",
+      "distance": 4
+    },
+    {
+      "from": "Lucknow",
+      "to": "HubNorth",
+      "distance": 5
+    },
+    {
+      "from": "Kanpur",
+      "to": "HubNorth",
+      "distance": 4
+    },
+    {
+      "from": "Kolkata",
+      "to": "HubEast",
+      "distance": 3
+    },
+    {
+      "from": "Patna",
+      "to": "HubEast",
+      "distance": 4
+    },
+    {
+      "from": "Nagpur",
+      "to": "HubCenter",
+      "distance": 3
+    },
+    {
+      "from": "Indore",
+      "to": "HubCenter",
+      "distance": 2
+    },
+    {
+      "from": "Chennai",
+      "to": "HubSouth",
+      "distance": 2
+    },
+    {
+      "from": "Bangalore",
+      "to": "HubSouth",
+      "distance": 3
+    },
+    {
+      "from": "Hyderabad",
+      "to": "HubSouth",
+      "distance": 4
+    },
+    {
+      "from": "HubWest",
+      "to": "W_West",
+      "distance": 4
+    },
+    {
+      "from": "HubWest",
+      "to": "W_Center",
+      "distance": 6
+    },
+    {
+      "from": "HubNorth",
+      "to": "W_North",
+      "distance": 3
+    },
+    {
+      "from": "HubNorth",
+      "to": "W_Center",
+      "distance": 7
+    },
+    {
+      "from": "HubEast",
+      "to": "W_East",
+      "distance": 4
+    },
+    {
+      "from": "HubEast",
+      "to": "W_North",
+      "distance": 8
+    },
+    {
+      "from": "HubSouth",
+      "to": "W_South",
+      "distance": 3
+    },
+    {
+      "from": "HubSouth",
+      "to": "W_Center",
+      "distance": 5
+    },
+    {
+      "from": "HubCenter",
+      "to": "W_Center",
+      "distance": 2
+    },
+    {
+      "from": "HubCenter",
+      "to": "W_West",
+      "distance": 6
+    },
+    {
+      "from": "HubWest",
+      "to": "HubNorth",
+      "distance": 9
+    },
+    {
+      "from": "HubNorth",
+      "to": "HubEast",
+      "distance": 7
+    },
+    {
+      "from": "HubEast",
+      "to": "HubSouth",
+      "distance": 8
+    },
+    {
+      "from": "HubSouth",
+      "to": "HubCenter",
+      "distance": 5
+    },
+    {
+      "from": "HubCenter",
+      "to": "HubWest",
+      "distance": 6
+    }
+  ]
+}

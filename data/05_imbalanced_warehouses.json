@@ -1,0 +1,86 @@
+{
+  "cities": [
+    {
+      "name": "P1",
+      "demand": 80
+    },
+    {
+      "name": "P2",
+      "demand": 90
+    },
+    {
+      "name": "P3",
+      "demand": 70
+    },
+    {
+      "name": "P4",
+      "demand": 60
+    },
+    {
+      "name": "P5",
+      "demand": 50
+    }
+  ],
+  "warehouses": [
+    {
+      "name": "BigWH",
+      "capacity": 400
+    },
+    {
+      "name": "SmallWH",
+      "capacity": 50
+    }
+  ],
+  "roads": [
+    {
+      "from": "P1",
+      "to": "BigWH",
+      "distance": 10
+    },
+    {
+      "from": "P1",
+      "to": "SmallWH",
+      "distance": 2
+    },
+    {
+      "from": "P2",
+      "to": "BigWH",
+      "distance": 3
+    },
+    {
+      "from": "P2",
+      "to": "SmallWH",
+      "distance": 12
+    },
+    {
+      "from": "P3",
+      "to": "BigWH",
+      "distance": 5
+    },
+    {
+      "from": "P3",
+      "to": "SmallWH",
+      "distance": 8
+    },
+    {
+      "from": "P4",
+      "to": "BigWH",
+      "distance": 4
+    },
+    {
+      "from": "P4",
+      "to": "SmallWH",
+      "distance": 15
+    },
+    {
+      "from": "P5",
+      "to": "BigWH",
+      "distance": 6
+    },
+    {
+      "from": "P5",
+      "to": "SmallWH",
+      "distance": 3
+    }
+  ]
+}

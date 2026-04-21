@@ -1,0 +1,95 @@
+{
+  "cities": [
+    {
+      "name": "Alpha",
+      "demand": 80
+    },
+    {
+      "name": "Beta",
+      "demand": 75
+    },
+    {
+      "name": "Gamma",
+      "demand": 60
+    },
+    {
+      "name": "Delta",
+      "demand": 45
+    },
+    {
+      "name": "Epsilon",
+      "demand": 30
+    }
+  ],
+  "warehouses": [
+    {
+      "name": "W1",
+      "capacity": 100
+    },
+    {
+      "name": "W2",
+      "capacity": 100
+    },
+    {
+      "name": "W3",
+      "capacity": 100
+    }
+  ],
+  "roads": [
+    {
+      "from": "Alpha",
+      "to": "Hub1",
+      "distance": 2
+    },
+    {
+      "from": "Beta",
+      "to": "Hub1",
+      "distance": 3
+    },
+    {
+      "from": "Gamma",
+      "to": "Hub2",
+      "distance": 2
+    },
+    {
+      "from": "Delta",
+      "to": "Hub2",
+      "distance": 4
+    },
+    {
+      "from": "Epsilon",
+      "to": "Hub2",
+      "distance": 1
+    },
+    {
+      "from": "Hub1",
+      "to": "W1",
+      "distance": 3
+    },
+    {
+      "from": "Hub1",
+      "to": "W2",
+      "distance": 6
+    },
+    {
+      "from": "Hub2",
+      "to": "W2",
+      "distance": 4
+    },
+    {
+      "from": "Hub2",
+      "to": "W3",
+      "distance": 2
+    },
+    {
+      "from": "W1",
+      "to": "W2",
+      "distance": 4
+    },
+    {
+      "from": "W2",
+      "to": "W3",
+      "distance": 3
+    }
+  ]
+}

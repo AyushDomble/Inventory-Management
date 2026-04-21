@@ -1,0 +1,119 @@
+{
+  "cities": [
+    {
+      "name": "A",
+      "demand": 30
+    },
+    {
+      "name": "B",
+      "demand": 35
+    },
+    {
+      "name": "C",
+      "demand": 25
+    },
+    {
+      "name": "D",
+      "demand": 40
+    },
+    {
+      "name": "E",
+      "demand": 20
+    },
+    {
+      "name": "F",
+      "demand": 45
+    },
+    {
+      "name": "G",
+      "demand": 30
+    },
+    {
+      "name": "H",
+      "demand": 25
+    }
+  ],
+  "warehouses": [
+    {
+      "name": "ONLY_WH",
+      "capacity": 300
+    }
+  ],
+  "roads": [
+    {
+      "from": "A",
+      "to": "ONLY_WH",
+      "distance": 3
+    },
+    {
+      "from": "B",
+      "to": "ONLY_WH",
+      "distance": 5
+    },
+    {
+      "from": "C",
+      "to": "ONLY_WH",
+      "distance": 2
+    },
+    {
+      "from": "D",
+      "to": "ONLY_WH",
+      "distance": 7
+    },
+    {
+      "from": "E",
+      "to": "ONLY_WH",
+      "distance": 4
+    },
+    {
+      "from": "F",
+      "to": "ONLY_WH",
+      "distance": 6
+    },
+    {
+      "from": "G",
+      "to": "ONLY_WH",
+      "distance": 8
+    },
+    {
+      "from": "H",
+      "to": "ONLY_WH",
+      "distance": 1
+    },
+    {
+      "from": "A",
+      "to": "B",
+      "distance": 3
+    },
+    {
+      "from": "B",
+      "to": "C",
+      "distance": 2
+    },
+    {
+      "from": "C",
+      "to": "D",
+      "distance": 4
+    },
+    {
+      "from": "D",
+      "to": "E",
+      "distance": 3
+    },
+    {
+      "from": "E",
+      "to": "F",
+      "distance": 2
+    },
+    {
+      "from": "F",
+      "to": "G",
+      "distance": 5
+    },
+    {
+      "from": "G",
+      "to": "H",
+      "distance": 3
+    }
+  ]
+}

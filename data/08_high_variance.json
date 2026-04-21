@@ -1,0 +1,86 @@
+{
+  "cities": [
+    {
+      "name": "City1",
+      "demand": 60
+    },
+    {
+      "name": "City2",
+      "demand": 70
+    },
+    {
+      "name": "City3",
+      "demand": 80
+    },
+    {
+      "name": "City4",
+      "demand": 50
+    },
+    {
+      "name": "City5",
+      "demand": 40
+    }
+  ],
+  "warehouses": [
+    {
+      "name": "Cheap",
+      "capacity": 160
+    },
+    {
+      "name": "Exp",
+      "capacity": 160
+    }
+  ],
+  "roads": [
+    {
+      "from": "City1",
+      "to": "Cheap",
+      "distance": 1
+    },
+    {
+      "from": "City1",
+      "to": "Exp",
+      "distance": 50
+    },
+    {
+      "from": "City2",
+      "to": "Cheap",
+      "distance": 45
+    },
+    {
+      "from": "City2",
+      "to": "Exp",
+      "distance": 2
+    },
+    {
+      "from": "City3",
+      "to": "Cheap",
+      "distance": 3
+    },
+    {
+      "from": "City3",
+      "to": "Exp",
+      "distance": 40
+    },
+    {
+      "from": "City4",
+      "to": "Cheap",
+      "distance": 35
+    },
+    {
+      "from": "City4",
+      "to": "Exp",
+      "distance": 4
+    },
+    {
+      "from": "City5",
+      "to": "Cheap",
+      "distance": 5
+    },
+    {
+      "from": "City5",
+      "to": "Exp",
+      "distance": 30
+    }
+  ]
+}

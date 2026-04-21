@@ -1,0 +1,75 @@
+{
+  "cities": [
+    {
+      "name": "C1",
+      "demand": 40
+    },
+    {
+      "name": "C2",
+      "demand": 40
+    },
+    {
+      "name": "C3",
+      "demand": 40
+    },
+    {
+      "name": "C4",
+      "demand": 40
+    },
+    {
+      "name": "C5",
+      "demand": 40
+    },
+    {
+      "name": "C6",
+      "demand": 40
+    }
+  ],
+  "warehouses": [
+    {
+      "name": "WH1",
+      "capacity": 150
+    },
+    {
+      "name": "WH2",
+      "capacity": 150
+    }
+  ],
+  "roads": [
+    {
+      "from": "C1",
+      "to": "C2",
+      "distance": 5
+    },
+    {
+      "from": "C2",
+      "to": "C3",
+      "distance": 5
+    },
+    {
+      "from": "C3",
+      "to": "C4",
+      "distance": 5
+    },
+    {
+      "from": "C4",
+      "to": "C5",
+      "distance": 5
+    },
+    {
+      "from": "C5",
+      "to": "C6",
+      "distance": 5
+    },
+    {
+      "from": "C1",
+      "to": "WH1",
+      "distance": 2
+    },
+    {
+      "from": "C6",
+      "to": "WH2",
+      "distance": 2
+    }
+  ]
+}

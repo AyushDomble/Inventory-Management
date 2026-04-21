@@ -1,0 +1,312 @@
+{
+  "cities": [
+    {
+      "name": "Mumbai",
+      "demand": 110
+    },
+    {
+      "name": "Delhi",
+      "demand": 125
+    },
+    {
+      "name": "Bangalore",
+      "demand": 105
+    },
+    {
+      "name": "Pune",
+      "demand": 85
+    },
+    {
+      "name": "Hyderabad",
+      "demand": 95
+    },
+    {
+      "name": "Chennai",
+      "demand": 90
+    },
+    {
+      "name": "Kolkata",
+      "demand": 110
+    },
+    {
+      "name": "Ahmedabad",
+      "demand": 80
+    },
+    {
+      "name": "Jaipur",
+      "demand": 75
+    },
+    {
+      "name": "Lucknow",
+      "demand": 85
+    },
+    {
+      "name": "Indore",
+      "demand": 70
+    },
+    {
+      "name": "Patna",
+      "demand": 75
+    },
+    {
+      "name": "Surat",
+      "demand": 65
+    },
+    {
+      "name": "BhopalCity",
+      "demand": 60
+    },
+    {
+      "name": "NagpurCity",
+      "demand": 65
+    },
+    {
+      "name": "RaipurCity",
+      "demand": 60
+    },
+    {
+      "name": "Coimbatore",
+      "demand": 70
+    },
+    {
+      "name": "Varanasi",
+      "demand": 75
+    },
+    {
+      "name": "Vadodara",
+      "demand": 60
+    },
+    {
+      "name": "Ranchi",
+      "demand": 65
+    }
+  ],
+  "warehouses": [
+    {
+      "name": "W1",
+      "capacity": 310
+    },
+    {
+      "name": "W2",
+      "capacity": 305
+    },
+    {
+      "name": "W3",
+      "capacity": 285
+    },
+    {
+      "name": "W4",
+      "capacity": 265
+    },
+    {
+      "name": "W5",
+      "capacity": 290
+    },
+    {
+      "name": "W6",
+      "capacity": 300
+    }
+  ],
+  "roads": [
+    {
+      "from": "Mumbai",
+      "to": "Nagpur",
+      "distance": 4
+    },
+    {
+      "from": "Pune",
+      "to": "Nagpur",
+      "distance": 3
+    },
+    {
+      "from": "Surat",
+      "to": "Nagpur",
+      "distance": 5
+    },
+    {
+      "from": "Vadodara",
+      "to": "Nagpur",
+      "distance": 6
+    },
+    {
+      "from": "Ahmedabad",
+      "to": "Nagpur",
+      "distance": 5
+    },
+    {
+      "from": "NagpurCity",
+      "to": "Nagpur",
+      "distance": 2
+    },
+    {
+      "from": "Delhi",
+      "to": "Bhopal",
+      "distance": 5
+    },
+    {
+      "from": "Jaipur",
+      "to": "Bhopal",
+      "distance": 3
+    },
+    {
+      "from": "Lucknow",
+      "to": "Bhopal",
+      "distance": 4
+    },
+    {
+      "from": "Varanasi",
+      "to": "Bhopal",
+      "distance": 6
+    },
+    {
+      "from": "Patna",
+      "to": "Bhopal",
+      "distance": 7
+    },
+    {
+      "from": "Indore",
+      "to": "Bhopal",
+      "distance": 2
+    },
+    {
+      "from": "BhopalCity",
+      "to": "Bhopal",
+      "distance": 1
+    },
+    {
+      "from": "Bangalore",
+      "to": "Hyderabad",
+      "distance": 3
+    },
+    {
+      "from": "Chennai",
+      "to": "Hyderabad",
+      "distance": 2
+    },
+    {
+      "from": "Coimbatore",
+      "to": "Hyderabad",
+      "distance": 4
+    },
+    {
+      "from": "Kolkata",
+      "to": "Raipur",
+      "distance": 4
+    },
+    {
+      "from": "Ranchi",
+      "to": "Raipur",
+      "distance": 3
+    },
+    {
+      "from": "RaipurCity",
+      "to": "Raipur",
+      "distance": 2
+    },
+    {
+      "from": "Nagpur",
+      "to": "Bhopal",
+      "distance": 5
+    },
+    {
+      "from": "Nagpur",
+      "to": "Hyderabad",
+      "distance": 7
+    },
+    {
+      "from": "Bhopal",
+      "to": "Hyderabad",
+      "distance": 6
+    },
+    {
+      "from": "Raipur",
+      "to": "Nagpur",
+      "distance": 6
+    },
+    {
+      "from": "Raipur",
+      "to": "Bhopal",
+      "distance": 5
+    },
+    {
+      "from": "Hyderabad",
+      "to": "Raipur",
+      "distance": 9
+    },
+    {
+      "from": "Nagpur",
+      "to": "W1",
+      "distance": 3
+    },
+    {
+      "from": "Nagpur",
+      "to": "W2",
+      "distance": 6
+    },
+    {
+      "from": "Nagpur",
+      "to": "W5",
+      "distance": 8
+    },
+    {
+      "from": "Bhopal",
+      "to": "W2",
+      "distance": 2
+    },
+    {
+      "from": "Bhopal",
+      "to": "W3",
+      "distance": 4
+    },
+    {
+      "from": "Bhopal",
+      "to": "W4",
+      "distance": 7
+    },
+    {
+      "from": "Hyderabad",
+      "to": "W3",
+      "distance": 3
+    },
+    {
+      "from": "Hyderabad",
+      "to": "W5",
+      "distance": 3
+    },
+    {
+      "from": "Hyderabad",
+      "to": "W6",
+      "distance": 8
+    },
+    {
+      "from": "Raipur",
+      "to": "W4",
+      "distance": 4
+    },
+    {
+      "from": "Raipur",
+      "to": "W6",
+      "distance": 3
+    },
+    {
+      "from": "Raipur",
+      "to": "W2",
+      "distance": 7
+    },
+    {
+      "from": "W1",
+      "to": "W2",
+      "distance": 5
+    },
+    {
+      "from": "W3",
+      "to": "W5",
+      "distance": 4
+    },
+    {
+      "from": "W4",
+      "to": "W6",
+      "distance": 6
+    }
+  ]
+}

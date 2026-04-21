@@ -1,0 +1,58 @@
+{
+  "cities": [
+    {
+      "name": "CityA",
+      "demand": 50
+    },
+    {
+      "name": "CityB",
+      "demand": 70
+    },
+    {
+      "name": "CityC",
+      "demand": 30
+    }
+  ],
+  "warehouses": [
+    {
+      "name": "WH1",
+      "capacity": 100
+    },
+    {
+      "name": "WH2",
+      "capacity": 100
+    }
+  ],
+  "roads": [
+    {
+      "from": "CityA",
+      "to": "WH1",
+      "distance": 2
+    },
+    {
+      "from": "CityA",
+      "to": "WH2",
+      "distance": 8
+    },
+    {
+      "from": "CityB",
+      "to": "WH1",
+      "distance": 6
+    },
+    {
+      "from": "CityB",
+      "to": "WH2",
+      "distance": 3
+    },
+    {
+      "from": "CityC",
+      "to": "WH1",
+      "distance": 4
+    },
+    {
+      "from": "CityC",
+      "to": "WH2",
+      "distance": 5
+    }
+  ]
+}
