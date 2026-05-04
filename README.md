@@ -87,7 +87,7 @@ inventory_placement_optimization/
 ├── 🎮 main.py
 └── 📂 data/
     └── 💾 sample_data.json
-
+```
 ---
 
 ## 🛠️ Tech Stack
